@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: video_analytics
+    database: learning
+    schema: raw
+    tables:
+      - name: video_details
+      - name: video_stats

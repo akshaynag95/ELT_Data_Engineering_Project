@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: video_details_prep
+    columns:
+      - name: video_id
+        tests: 
+          - not_null
+          - unique
+      - name: channel_id
+        tests:
+          - not_null
