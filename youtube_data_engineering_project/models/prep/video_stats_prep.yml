@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: video_stats_prep
+    columns:
+      - name: id
+        tests: 
+          - not_null
+          - unique
+      - name: data_as_of
+        tests:
+          - not_null

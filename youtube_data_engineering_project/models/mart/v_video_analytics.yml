@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: v_video_analytics
+    columns:
+      - name: video_id
+        tests:
+          - not_null
+          - unique
+      - name: data_as_of
+        tests: 
+          - not_null

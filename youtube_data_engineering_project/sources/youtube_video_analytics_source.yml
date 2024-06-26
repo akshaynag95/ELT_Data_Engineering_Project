@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: youtube_video_analytics_source
+    database: learning
+    schema: raw
+    tables:
+      - name: video_details
+      - name: video_stats
