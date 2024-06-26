@@ -2,7 +2,7 @@
 
 with source as (
     select * 
-    from {{ source('video_analytics','video_details')}}
+    from {{ source('youtube_video_analytics_source','video_details')}}
 ),
 
 renamed as (

@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: video_analytics
+  - name: youtube_video_analytics_source
     database: learning
     schema: raw
     tables:
